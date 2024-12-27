@@ -1,5 +1,5 @@
 ---
-AWSTemplateFormateVersion: '2010-09-09'
+AWSTemplateFormatVersion: '2010-09-09'
 Description: deploying a lamp stack using bitnami ami which has reconfigured lamp stack
 
 Resources:
@@ -7,32 +7,30 @@ Resources:
     Type: 'AWS::EC2::Instance'
     Properties:
       InstanceType: t2.micro
-      ImageId: 
+      ImageId: ami-01816d07b1128cd2d
       KeyName: web-dev
-      SecurityGroup:
+      SecurityGroupIds:
         - !Ref mysecurityGroup
       Tags:
-        - key: Name
+        - Key: Name
           Value: 'web01'
 
   mysecurityGroup:
-    Type: 'aws::EC2::SecurityGroup'
+    Type: 'AWS::EC2::SecurityGroup'
     Properties:
+      GroupDescription: "Allow SSH and HTTP traffic"
       SecurityGroupIngress:
         - IpProtocol: "tcp"
-          fromPort: "22"
-          ToPort: "22"
-          CidrBlock: "0.0.0.0/0"
+          FromPort: 22
+          ToPort: 22
+          CidrIp: "0.0.0.0/0"
         - IpProtocol: "tcp"
-          FromPort: "80"
-          ToPort: "80"
-          CidrBlock: "0.0.0.0/0"
-      Tags:
-        - key: Name
-          Value: web-securityGroup
+          FromPort: 80
+          ToPort: 80
+          CidrIp: "0.0.0.0/0"
 
 Outputs:
   InstancePublicIp:
-    value: !GetAtt myinstance.PublicIp
+    Value: !GetAtt myinstance.PublicIp
 
         
