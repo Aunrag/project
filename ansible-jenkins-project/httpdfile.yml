@@ -1,0 +1,18 @@
+---
+- name : website file transefer
+  hosts : localhost
+
+  tasks :
+  - name : copy code files
+    copy :
+
+      src : /var/lib/jenkins/workspace/webpage-job/jjk/
+      dest : /var/www/html/
+      mode : ugo=r
+      backup : true
+
+  - name : restart the httpd service
+    service :
+      name : httpd
+      state : restarted
+
