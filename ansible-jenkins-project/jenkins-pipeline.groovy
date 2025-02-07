@@ -4,8 +4,8 @@ pipeline{
         GIT_REPO='https://github.com/Aunrag/front-end-study.git'
         BRANCH='main'
         ANSIBLE_INVENTORY='/etc/ansible/hosts'
-        ANSIBLE_PLAYBOOK='/etc/ansible/playbooks/3_jjkfilesmv.yml'
-        ANSIBLE_PLAYBOOK1='/etc/ansible/playbooks/4_jjkwebset.yml'
+        ANSIBLE_PLAYBOOK='/etc/ansible/playbooks/httpdsetup.yml'
+        ANSIBLE_PLAYBOOK1='/etc/ansible/playbooks/httpdfile.yml'
         RECIPIENTS='pawaranurag244@gmail.com'
     }
     triggers {
