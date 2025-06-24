@@ -14,7 +14,6 @@ This project predicts whether an online shopper will make a purchase based on th
 4. **Splitting Dataset**
 5. **Balancing Data using SMOTE**
 6. **Training Models (GradientBoosting, RandomForest)**
-7. **Hyperparameter Tuning (RandomizedSearchCV)**
 8. **Threshold Tuning**
 9. **Model Evaluation**
 10. **Visualization (ROC, PR Curve, Confusion Matrix)**
@@ -25,7 +24,6 @@ This project predicts whether an online shopper will make a purchase based on th
 
 - GradientBoostingClassifier
 - SMOTE (oversampling for imbalance)
-- RandomizedSearchCV
 - Classification Metrics (Precision, Recall, F1, AUC)
 - Threshold tuning
 
