@@ -34,7 +34,7 @@ This project predicts whether an online shopper will make a purchase based on th
 - Confusion Matrix:
         [[2643  244]
          [  99  362]]
-- Recall for True: 79
+- Recall for True: 79%
 ---
 
 ## Dependencies
