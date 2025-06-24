@@ -1,12 +1,11 @@
-# 🛍️ Online Shoppers Intention Prediction
+# Online Shoppers Intention Prediction
 
 This project predicts whether an online shopper will make a purchase based on their browsing session data. It applies supervised machine learning, handles class imbalance, and evaluates the model with appropriate classification metrics.
 
----
 
-## 📘 Notebook: `Anurag_pawar_online_shoppers_intention.ipynb`
+# Notebook: `Anurag_pawar_online_shoppers_intention.ipynb`
 
-### ✅ Project Workflow:
+# Project Workflow:
 
 1. **Importing Data**
 2. **Data Cleaning & Preprocessing**
@@ -21,7 +20,7 @@ This project predicts whether an online shopper will make a purchase based on th
 
 ---
 
-## 🧠 ML Techniques Used
+## ML Techniques Used
 
 - GradientBoostingClassifier
 - SMOTE (oversampling for imbalance)
@@ -31,7 +30,7 @@ This project predicts whether an online shopper will make a purchase based on th
 
 ---
 
-## ⚙️ Dependencies
+## Dependencies
 
 Install required packages using:
 
