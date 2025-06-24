@@ -26,7 +26,15 @@ This project predicts whether an online shopper will make a purchase based on th
 - SMOTE (oversampling for imbalance)
 - Classification Metrics (Precision, Recall, F1, AUC)
 - Threshold tuning
+---
+## Result Achived
 
+- ROC AUC Score: 0.9232955420626686
+- accuracy score : 0.8975507765830346
+- Confusion Matrix:
+        [[2643  244]
+         [  99  362]]
+- Recall for True: 79
 ---
 
 ## Dependencies
