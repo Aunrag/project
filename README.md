@@ -2,6 +2,7 @@
 
 This project predicts whether an online shopper will make a purchase based on their browsing session data. It applies supervised machine learning, handles class imbalance, and evaluates the model with appropriate classification metrics.
 
+---
 
 # Notebook: `Anurag_pawar_online_shoppers_intention.ipynb`
 
