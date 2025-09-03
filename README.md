@@ -81,8 +81,10 @@ Name: title, dtype: object] are:
     recommended comic:  I Become A Villain In My Novel
     recommended comic:  My Lady, Please Become My Heroine!
     recommended comic:  Ouroboros Record: Circus of Oubeniel (Light Novel   )
+---
 
-### Dependencies
+### Dependances
+
    pip install pandas scikit-learn nltk flask
 
    import nltk
