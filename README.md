@@ -83,10 +83,12 @@ Name: title, dtype: object] are:
     recommended comic:  Ouroboros Record: Circus of Oubeniel (Light Novel   )
 ```
 ---
+### Dependencies
+```bash
+pip install pandas scikit-learn nltk
+```
+```python
+import nltk
+nltk.download('punkt')
+```
 
-### Dependances
-
-   pip install pandas scikit-learn nltk flask
-
-   import nltk
-   nltk.download('punkt')
