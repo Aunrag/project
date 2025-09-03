@@ -69,7 +69,9 @@ A simple web interface is added using **Flask**, allowing users to input a comic
 
 ```python
 recommend('Omniscient Reader')
-
+```
+   Output
+```
 similar comics to [9    Omniscient Reader
 Name: title, dtype: object] are:
     recommended comic:  Omniscient Reader (Novel)
