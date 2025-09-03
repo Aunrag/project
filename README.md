@@ -82,8 +82,8 @@ Name: title, dtype: object] are:
     recommended comic:  My Lady, Please Become My Heroine!
     recommended comic:  Ouroboros Record: Circus of Oubeniel (Light Novel   )
 
-Dependencies
-pip install pandas scikit-learn nltk flask
+### Dependencies
+   pip install pandas scikit-learn nltk flask
 
-import nltk
-nltk.download('punkt')
+   import nltk
+   nltk.download('punkt')
